@@ -1,3 +1,2 @@
-import pandas as pd
-df=pd.read_csv("sales_data.csv")
-print(df)
+electronic_cat=salesdata[salesdata['Category']=="Electronic"]
+print(electronic_cat)
